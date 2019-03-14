@@ -85,7 +85,7 @@ p, a, h5 {
 }
 
 .nav-pills > li {
-  border-right: 1px solid rgb(102, 102, 247);
+  border-right: 1px solid rgb(84, 50, 207);
   display: inline; 
   margin-right: 0.5em;
   padding-right: 0.5em;
@@ -98,7 +98,7 @@ p, a, h5 {
 }
 
 .nav-pills li > a {
-  color: rgba(98, 165, 253, 0.938);
+  color: rgb(12, 51, 224);
   font-weight: 900px;
   padding-right: 1em;
   padding-left: 1em;
@@ -112,7 +112,7 @@ p, a, h5 {
 }
 
 .nav-checkbox > p {
-  color: rgba(98, 165, 253, 0.938);
+  color: rgb(12, 51, 224);
   font-size: 0.9em;
   padding: 0px;
   margin: 0px;
@@ -128,8 +128,10 @@ p, a, h5 {
 
 #hero {
   align-items: center;
-  background-image: url(./images/milky-way.jpg);
   background-size: cover;
+  background-image: url(./images/focus.jpg);
+  background-position-y: -30px;
+
   display: flex;
   justify-content: space-evenly;
   width: 100%;

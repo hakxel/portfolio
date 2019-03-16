@@ -99,9 +99,9 @@ p, a, h5 {
 
 .nav-pills li > a {
   color: rgb(12, 51, 224);
-  font-weight: 900px;
-  padding-right: 1em;
-  padding-left: 1em;
+  font-weight: 800px;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 #music-toggle {

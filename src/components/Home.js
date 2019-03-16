@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import Main from './Main'
 import Projects from './Projects'
 import Resume from './Resume'
@@ -9,8 +8,7 @@ import Footer from './Footer'
 
 let Home = () => {
   return (
-    <div>
-      <Navbar />
+    <main>
       <article class="container-fluid">
         <Main />
         <Projects />
@@ -19,7 +17,7 @@ let Home = () => {
 
       </article>
       <Footer />
-    </div>
+    </main>
   )
 }
 

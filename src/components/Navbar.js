@@ -4,9 +4,9 @@ import logo from '../images/logo-img.jpg'
 let Navbar = () => {
   return (
     <header id="header">
-      <nav class="nav-wrapper top">
+      <nav class="nav-wrapper">
         <div class="nav-logo"><a href="/">
-          <img id="logo-img" src={logo} alt="A stylished picture of Asiel" /></a>
+          <img id="logo-img" src={logo} alt="Asiel" /></a>
         </div>
         <div class="nav-items">
           <ul class="nav nav-pills">

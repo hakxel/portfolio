@@ -16,7 +16,7 @@ let Projects = () => {
   console.log(imgSource)
   return(
     <section id="projects">
-      <div className="projects-title">
+      <div className="title">
         <h3>Projects</h3>
       </div>
       <div class="projects-wrapper">

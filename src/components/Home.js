@@ -11,8 +11,8 @@ let Home = () => {
     <main>
       <article class="container-fluid">
         <Main />
-        <Projects />
         <Resume />
+        <Projects />
         <Contact />
 
       </article>

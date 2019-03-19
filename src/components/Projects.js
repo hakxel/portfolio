@@ -1,21 +1,24 @@
 import React from 'react'
-import Project from './Project';
 import ProjectsList from '../data/projects.json'
+import Project from './Project';
 
-// import RorSampleApp from '../images/RoR_sample_app.png'
-// import CodeDangerously from '../images/code_dangerously.png'
+// import SampleApp from '../images/SampleApp.png'
+// import LECSS from '../images/LECSS.png'
 // import PalindromeApp from '../images/palindrome_app.png'
 // import JacqueFresco from '../images/tribute_jacque_fresco.png'
 // import ExpenseTracker from '../images/expense_tracker_app.png'
 // import BullsAndCows from '../images/bulls_and_cows.png'
 
-const imgSource = '../images/'
+const imgSource = process.env.PUBLIC_URL
 
 const projectList = ProjectsList.allProjects
 let Projects = () => {
+  console.log(imgSource)
   return(
-    <section id="profile">
-      <h3>My Projects</h3>
+    <section id="projects">
+      <div className="projects-title">
+        <h3>Projects</h3>
+      </div>
       <div class="projects-wrapper">
         {projectList.map( project =>
           <Project 

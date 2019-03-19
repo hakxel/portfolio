@@ -1,52 +1,36 @@
 {
   "allProjects": [
     { 
-      "name": "SampleApp",
+      "name": "Bitworld Buys",
+      "class": "project",
+      "href": "https://bitworld-buys.herokuapp.com/",
+      "image":"/images/BitworldBuys.png",
+      "alt": "Bitworld Buys app",
+      "description":"An app for your bitcoin purchases"
+    },
+    { 
+      "name": "Beat Blender",
+      "class": "project",
+      "href": "https://beat-blender.herokuapp.com",
+      "image": "/images/BeatBlender.png",
+      "alt": "Beat Blender App",
+      "description": "A playlist mixer for your family meetings"
+    },
+    { 
+      "name": "Rails Tutorial Sample App",
       "class": "project",
       "href": "https://fathomless-taiga-58570.herokuapp.com/",
-      "image": "/images/ror_sample_app.png",
-      "alt": "The Ruby on Rails sample app",
+      "image": "/images/SampleApp.png",
+      "alt": "The Ruby on Rails Tutorial sample app",
       "description": "The Ruby on Rails tutorial sample app"
     },
     {
-      "name": "CodeDangerously",
+      "name": "Learn Enough CSS sample App",
       "class": "project",
       "href": "https://hakxel.github.io/",
-      "image": "/images/code_dangerously.png",
+      "image": "/images/LECSS.png",
       "alt": "Learn enough sample app",
       "description":"The Learn Enough CSS sample app"    
-    },
-    { 
-      "name": "PalindromeApp",
-      "class": "project",
-      "href": "https://polar-ridge-67717.herokuapp.com/",
-      "image":"/images/palindrome_app.png",
-      "alt": "A palindrome detector",
-      "description":"A palindrome detector"
-    },
-    { 
-      "name": "JacqueFresco",
-      "class": "project tribute",
-      "href": "https://hakxel.github.io/tribute_page/",
-      "image": "/images/tribute_jacque_fresco.png",
-      "alt": "A tribute to Jacque Fresco",
-      "description": "A tribute to Jacque Fresco"
-    },
-    { 
-      "name": "ExpenseTracker",
-      "class": "project",
-      "href": "https://github.com/Hakxel/my-expenses-tracker",
-      "image": "/images/expense_tracker_app.png",
-      "alt": "An expense tracker app",
-      "description": "A CLI expense tracker app"
-    },
-    { 
-      "name": "BullsAndCows",
-      "class": "project bullsgame",
-      "href": "https://github.com/Hakxel/bulls-and-cows",
-      "image": "/images/bulls_and_cows.png",
-      "alt": "A numbers guessing game",
-      "description": "A numbers guessing game"
     }
   ]
 }

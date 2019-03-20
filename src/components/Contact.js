@@ -4,7 +4,7 @@ let Contact = () => {
   return (
     <div id="contact">
       <div className="title">
-        <h1>Contact me</h1>
+        <h3>Contact me</h3>
       </div>
       <div className="contact-wrapper">
         <form>

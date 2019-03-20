@@ -386,18 +386,28 @@ h3 {
 } */
 
 #contact {
-  background-image: url(./images/white.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   text-align: center;
   flex-direction: column;
-  height: 100vh;
+  align-items: center;
+  height: auto;
   max-width: 100%;
 }
 
+.title > h1 {
+  margin: 0%;
+}
+
 .contact-wrapper {
-  padding-top: 5em;
+  background-image: url(./images/white.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 60vw;
+  justify-self: flex-end;
 }
 
 .contact-wrapper form {
@@ -437,6 +447,12 @@ h3 {
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 3em;
 }
 
 

@@ -3,10 +3,10 @@ import React from 'react'
 let Contact = () => {
   return (
     <div id="contact">
+      <div className="title">
+        <h1>Contact me</h1>
+      </div>
       <div className="contact-wrapper">
-        <div className="title">
-          <h1>Contact me</h1>
-        </div>
         <form>
           <h2>Name</h2>
           <input type="text" />

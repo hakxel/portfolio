@@ -14,7 +14,6 @@ let Home = () => {
         <Resume />
         <Projects />
         <Contact />
-
       </article>
       <Footer />
     </main>

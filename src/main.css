@@ -299,16 +299,16 @@ p, h5 {
   background-color: aliceblue;
 }
 
-.intro-phrase {
+.quote {
   text-align: center;
   /* font-family: 'Acme', sans-serif; */
   /* width: 50%;   */
 }
 
 
-.intro-phrase > h4 {
+/* .intro-phrase > h4 {
   margin: 0px;
-}
+} */
 
 
 #projects {

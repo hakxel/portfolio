@@ -11,7 +11,7 @@ let Main = () => {
       <div class="hero-body">
         <SocialLinks />        
         <div class="hero-right">
-          <h3>A portfolio for</h3>
+          <h3>A portfolio by</h3>
           <h1>Asiel Montes</h1>
           <h2>Web Developer</h2>
           <a href="#contact">Contact me</a>

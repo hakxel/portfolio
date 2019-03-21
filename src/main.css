@@ -448,6 +448,10 @@ p, h5 {
 } */
 
 #contact {
+  background-image: url(./images/milky-way.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -482,6 +486,7 @@ p, h5 {
 
 .contact-wrapper h2 {
   font-size: 1.5em;
+  color: rgb(28, 10, 94);
 }
 
 .contact-wrapper input {
@@ -502,9 +507,11 @@ p, h5 {
   display: inline-block;
   width: 200px;
   padding: 8px;
-  color: #fff;
-  background-color: rgba(147, 146, 235, 0.315);
-  border: 2px solid #fff;
+  color: aliceblue;
+  /* color: rgb(28, 10, 94); */
+  background-color: #04223da9;
+  /* background-color: rgba(147, 146, 235, 0.315); */
+  border: 2px solid aliceblue;
   text-align: center;
   outline: none;
   text-decoration: none;

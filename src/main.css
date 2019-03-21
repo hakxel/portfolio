@@ -24,12 +24,14 @@ h1, h2, h3, h5, h6 {
 
 h1 {
   font-family: 'Berkshire Swash', cursive, serif;
-  font-size: 9vmin;
+  font-size: 4rem;
+  color: aliceblue;
 }
 
 h2 {
-  font-family: 'Acme', sans-serif;
-  font-size: 6vmin;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  color: aliceblue;
 }
 
 h3 {
@@ -37,9 +39,11 @@ h3 {
   font-size: 3.5em;
 }
 
-p, a, h5 {
+p, h5 {
   font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
 }
+
+
 
 .title {
   background-color: #04223da9;
@@ -55,7 +59,8 @@ p, a, h5 {
   height: 10vh;
   width: 100vw;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0);
+  /* background-color: #04223da9; */
+  /* background-color: rgba(255, 255, 255, 0); */
   /* align-self: flex-start; */
   /* background-color: rgb(21, 129, 223); */
   /* border: 2px solid white; */
@@ -114,16 +119,20 @@ p, a, h5 {
 }
 
 .nav-pills :nth-child(2) {
-  border-right: 1px solid rgb(84, 50, 207);
-  border-left: 1px solid rgb(84, 50, 207);
+  /* border-right: 1px solid rgb(84, 50, 207);
+  border-left: 1px solid rgb(84, 50, 207); */
+  border-right: 1px solid rgb(28, 10, 94);
+  border-left: 1px solid rgb(28, 10, 94);
   /* display: inline; 
   margin-right: 0.5em;
   padding-right: 0.5em; */
 }
 
 .nav-pills li > a {
-  color: rgb(12, 51, 224);
-  font-weight: 800px;
+  /* color: rgb(24, 42, 143); */
+  color: rgb(28, 10, 94);
+  font-weight: 900px;
+  font-size: 1.2rem;
   padding-right: 5vw;
   padding-left: 5vw;
   /* padding-right: 2em;
@@ -158,7 +167,6 @@ p, a, h5 {
   background-image: url(./images/focus.jpg);
   background-position: center;
   background-size: cover;
-  /* background-position-y: -30px; */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -185,11 +193,12 @@ p, a, h5 {
   /* flex-grow: 1; */
   min-width: 4em;
   /* width: 20em; */
-  height: 20em;
+  height: 100%;
   padding-left: 5rem;
+  margin-top: -5em;
 }
 .hero-left a > img {  
-  margin-top: 1.5em;
+  margin-top: 3em;
   border: 1px solid darkblue;
   background-color: aliceblue;
   border-radius: 3px; 
@@ -214,7 +223,7 @@ p, a, h5 {
 
 #github-icon {
   /* height: 10vw; */
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
   max-height: 3em;
   max-width: 3em;
   min-width: 3em;
@@ -222,26 +231,28 @@ p, a, h5 {
 }
 
 .hero-right {
-  justify-items: flex-start;
-  background-color: #04223da9;
+  /* justify-items: center; */
+  /* background-color: #04223da9; */
+  /* background-color: rgba(143, 151, 111, 0.589); */
   display: flex;
   flex-direction: column;
   /* flex-grow: 1; */
   height: 80%;
-  /* justify-content: center; */
+  justify-content: center;
   justify-self: flex-end;
   padding-top: 2em;
+  margin-top: -7em;
   text-align: center;
   width: 30vw;
 }
 
 .hero-right > h1 {
-  margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .hero-right > a {
   align-self: center;  
-  background-image: linear-gradient(#3c125fd8, #2b1480d3, #1e5ccfcc);
+  background-image: linear-gradient(rgba(219, 242, 255, 0.856), #2b1480d3, #1e5ccfcc);
   border: 2px solid darkblue;
   border-radius: 4px;
   color: aliceblue;
@@ -290,8 +301,6 @@ p, a, h5 {
   /* width: 50%;   */
 }
 
- /* *********BUTTON************** */
-/* ******************************* */
 
 .intro-phrase > h4 {
   margin: 0px;
@@ -375,6 +384,7 @@ p, a, h5 {
   display: flex;
   justify-content: space-around;
   padding-top: 1em;
+  margin-bottom: 3em;
   width: 100%;
   text-align: left;
 }

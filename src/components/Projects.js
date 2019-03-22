@@ -19,7 +19,7 @@ let Projects = () => {
       <div className="title">
         <h3>Projects</h3>
       </div>
-      <div class="projects-wrapper">
+      <div className="projects-wrapper">
         {projectList.map( project =>
           <Project 
             key={project.name}

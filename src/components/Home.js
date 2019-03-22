@@ -11,7 +11,7 @@ import Footer from './Footer'
 let Home = () => {
   return (
     <main>
-      <article class="container-fluid">
+      <article className="container-fluid">
         <Main />
         <Transition1 />
         <Resume />

@@ -8,9 +8,9 @@ let Main = () => {
   return (
     <section id="hero">
       <Navbar />
-      <div class="hero-body">
+      <div className="hero-body">
         <SocialLinks />        
-        <div class="hero-right">
+        <div className="hero-right">
           <h3>A portfolio by</h3>
           <h1>Asiel Montes</h1>
           <h2>Web Developer</h2>

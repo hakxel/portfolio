@@ -1,34 +1,34 @@
 {
   "allProjects": [
     { 
-      "name": "Bitworld Buys",
+      "name": "bitworldBuys",
       "class": "project",
       "href": "https://bitworld-buys.herokuapp.com/",
-      "image":"/images/BitworldBuys.png",
+      "image":"/images/BitworldBuys",
       "alt": "Bitworld Buys app",
       "description":"An app for your bitcoin purchases"
     },
     { 
-      "name": "Beat Blender",
+      "name": "beatBlender",
       "class": "project",
       "href": "https://beat-blender.herokuapp.com",
-      "image": "/images/BeatBlender.png",
+      "image": "/images/BeatBlender",
       "alt": "Beat Blender App",
       "description": "A playlist mixer for your family meetings"
     },
     { 
-      "name": "Rails Tutorial Sample App",
+      "name": "sampleApp",
       "class": "project",
       "href": "https://fathomless-taiga-58570.herokuapp.com/",
-      "image": "/images/SampleApp.png",
+      "image": "/images/SampleApp",
       "alt": "The Ruby on Rails Tutorial sample app",
       "description": "The Ruby on Rails tutorial sample app"
     },
     {
-      "name": "Learn Enough CSS sample App",
+      "name": "leCSS",
       "class": "project",
       "href": "https://hakxel.github.io/",
-      "image": "/images/LECSS.png",
+      "image": "/images/LECSS",
       "alt": "Learn enough sample app",
       "description":"The Learn Enough CSS sample app"    
     }

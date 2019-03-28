@@ -265,6 +265,12 @@ p, h5 {
   min-width: 5rem;
   padding: 5px;
   width: 40%;
+  opacity: 0.8;
+  outline: 0;
+}
+
+.hero-right > a:hover {
+  opacity: 1;
 }
 
 /* .hero-wrapper {
@@ -524,7 +530,7 @@ p, h5 {
   padding: 8px;
   color: aliceblue;
   /* color: rgb(28, 10, 94); */
-  background-color: #04223da9;
+  background-color: #04223dbd;
   /* background-color: rgba(147, 146, 235, 0.315); */
   border: 2px solid aliceblue;
   text-align: center;
@@ -532,6 +538,11 @@ p, h5 {
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 0.8;
+}
+
+.contact-wrapper .button:hover{
+  opacity: 1
 }
 
 .footer {

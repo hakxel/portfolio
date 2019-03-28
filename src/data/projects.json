@@ -4,7 +4,7 @@
       "name": "bitworldBuys",
       "class": "project",
       "href": "https://bitworld-buys.herokuapp.com/",
-      "image":"/images/BitworldBuys",
+      "image":"/images/bitworldBuys",
       "alt": "Bitworld Buys app",
       "description":"An app for your bitcoin purchases"
     },
@@ -12,7 +12,7 @@
       "name": "beatBlender",
       "class": "project",
       "href": "https://beat-blender.herokuapp.com",
-      "image": "/images/BeatBlender",
+      "image": "/images/beatBlender",
       "alt": "Beat Blender App",
       "description": "A playlist mixer for your family meetings"
     },
@@ -20,7 +20,7 @@
       "name": "sampleApp",
       "class": "project",
       "href": "https://fathomless-taiga-58570.herokuapp.com/",
-      "image": "/images/SampleApp",
+      "image": "/images/sampleApp",
       "alt": "The Ruby on Rails Tutorial sample app",
       "description": "The Ruby on Rails tutorial sample app"
     },
@@ -28,7 +28,7 @@
       "name": "leCSS",
       "class": "project",
       "href": "https://hakxel.github.io/",
-      "image": "/images/LECSS",
+      "image": "/images/leCSS",
       "alt": "Learn enough sample app",
       "description":"The Learn Enough CSS sample app"    
     }

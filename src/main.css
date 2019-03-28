@@ -143,6 +143,11 @@ p, h5 {
   padding-left: 2em; */
 }
 
+.nav-pills li > a:hover {
+  /* font-size: 1.3rem; */
+  color: aliceblue;
+}
+
 /* #music-toggle {
   align-items: center;
   display: flex;
@@ -190,48 +195,48 @@ p, h5 {
 
 .hero-left {
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   justify-self: flex-start;
   display: flex;
   flex-direction: column;
-  /* flex-grow: 1; */
-  min-width: 4em;
-  /* width: 20em; */
-  height: 100%;
-  padding-left: 5rem;
+  width: 8em;
+  height: 50%;
+  padding-left: 3rem;
   margin-top: -5em;
 }
-.hero-left a > img {  
-  margin-top: 3em;
+
+.github, .twitter {
+  padding: 3px;
+}
+
+.hero-left a > img {
   border: 1px solid darkblue;
   background-color: aliceblue;  
   border-radius: 3px; 
 }
 
-#linkedin-icon {
-  /* height: 11vw; */
-  margin-top: 1em;
-  max-height: 3em;
-  max-width: 3em;
-  min-width: 3em;
-  /* width: 11vw; */
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  height: 20%;
 }
 
-#twitter-icon {
-  /* height: 10vw; */
+.icon {
   max-height: 3em;
   max-width: 3em;
   min-width: 3em;
-  /* width: 10vw; */
 }
 
-#github-icon {
-  /* height: 10vw; */
-  /* margin-bottom: 1em; */
-  max-height: 3em;
-  max-width: 3em;
-  min-width: 3em;
-  /* width: 10vw; */
+.icon:hover {
+  max-height: 3.5em;
+  max-width: 3.5em;
+  border-radius: 50%;
+}
+
+.linkedin:hover {
+  max-height: 3.4em;
+  max-width: 3.4em;
+  border-radius: 50%;
 }
 
 .hero-right {

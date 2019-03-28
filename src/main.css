@@ -344,16 +344,16 @@ p, h5 {
   justify-self: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 98%;
+  width: 90%;
   height: 100%;
   margin-bottom: 2em;
 }
 
 .projects-wrapper > div {
   flex-wrap: wrap;
-  width: 40vw;
-  height: 15 rem;
-  margin: 10px;
+  width: 30vw;
+  height: 10 rem;
+  margin: 3rem;
   background-image: linear-gradient(to bottom rgba(9, 51, 114, 0.897), rgba(33, 89, 172, 0.801), rgba(34, 5, 46, 0.932));
   /* background-image: linear-gradient(to top rgba(10, 31, 63, 0.7), rgb(1, 1, 17), rgba(10, 31, 63, 0.7)); */
   /* background-image: linear-gradient(to bottom rgba(143, 124, 43, 0.863), rgba(160, 160, 154, 0.76), rgba(31, 30, 29, 0.959)); */
@@ -375,9 +375,10 @@ p, h5 {
 
 .project a > img {
   max-width: 95%;
-  max-height: 85%;
+  height: 85%;
   margin: 4px;
   border: 1px solid aliceblue;
+  overflow: hidden;
 }
 
 .project a > p {

@@ -5,9 +5,9 @@ class Contact extends Component {
   constructor() {
     super()
     this.state = {
-      visitorName: '',
-      visitorEmail: '',
-      visitorMessage: '',
+      name: '',
+      email: '',
+      message: '',
       // validationErrors: {
       //   name: '',
       //   email: '',
@@ -31,28 +31,28 @@ class Contact extends Component {
   //   let hasErrors = false
   //   let pattern = "/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,9})+$/"
 
-  //   if(!this.state.visitorName) {
+  //   if(!this.state.name) {
   //     errors.name = "Name can't be empty"
   //     this.setState({
   //       hasErrors: true
   //     })
   //   }
 
-  //   if(!this.state.visitorEmail) {
+  //   if(!this.state.email) {
   //     errors.email = "Email can't be empty"
   //     this.setState({
   //       hasErrors: true
   //     })
   //   }
 
-  //   if(!this.state.visitorEmail.match(pattern)) {
+  //   if(!this.state.email.match(pattern)) {
   //     errors.email = "Please enter a valid email"
   //     this.setState({
   //       hasErrors: true
   //     })
   //   }
 
-  //   if(!this.state.visitorMessage) {
+  //   if(!this.state.message) {
   //     errors.message = "Please enter a message"
   //     this.setState({
   //       hasErrors: true
@@ -66,18 +66,19 @@ class Contact extends Component {
   //   return hasErrors
   // }
 
+  
+
   sendEmail = (event) => {
     event.preventDefault()
-
     // if(this.invalidForm) {
     //   console.log("Form is not valid")
     //   return
     // }
 
     let template_params = {
-      "from_name": this.state.visitorName,
-      "reply_to": this.state.visitorEmail,
-      "message_html": this.state.visitorMessage
+      "from_name": this.state.name,
+      "reply_to": this.state.email,
+      "message_html": this.state.message
     }
     
     let user_id = "user_ZbJB2sANcI7G9tMw4uHh2"
@@ -87,15 +88,14 @@ class Contact extends Component {
     .then((response) => {
       console.log('SUCCESS!', response.status, response.text)
       alert("Your message was sent")
+      this.setState({
+        name: '',
+        email: '',
+        message: ''
+      })
     }, (err) => {
       console.log('FAILED...', err)
       alert("Message not sent")
-    })
-
-    this.setState({
-      visitorName: '',
-      visitorEmail: '',
-      visitorMessage: ''
     })
   }
 
@@ -108,14 +108,14 @@ class Contact extends Component {
         </div>
         <div className="contact-wrapper">
           <form onSubmit={this.sendEmail}>
-            <label>Name</label>
-            <input type="text" className="form-control" name="visitorName" required="required" value={this.state.visitorName} onChange={this.handleChange}/>
+              <label>Name</label>
+              <input type="text" className="form-control" name="name" placeholder="Your Name" value={this.state.name} onChange={this.handleChange} autoComplete="off" required="required"/>
 
-            <label>Email</label>
-            <input type="email" className="form-control" name="visitorEmail" required="required" value={this.state.visitorEmail} onChange={this.handleChange}/>
-            
-            <label>Message</label>
-            <textarea id="message" className="form-control" name="visitorMessage" rows="20" required="required" value={this.state.visitorMessage} onChange={this.handleChange}/>
+              <label>Email</label>
+              <input type="email" className="form-control" name="email" placeholder="example@email.com" value={this.state.email} onChange={this.handleChange} autoComplete="off" required="required" />
+
+              <label>Message</label>
+              <textarea className="form-control message" name="message" rows="20" placeholder="Enter your message here..." value={this.state.message} onChange={this.handleChange} autoComplete="off"></textarea>
 
             <button className="ui button">Contact me!</button>
           </form>

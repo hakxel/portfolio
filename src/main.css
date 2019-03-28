@@ -508,9 +508,10 @@ p, h5 {
   padding: 0.5em;
   margin-bottom: 0.5em;
   border-radius: 5px;
+  box-shadow: none;
 }
 
-#message {
+.contact-wrapper .message {
   height: 10em;
   width: 30vw;
   border-radius: 5px;

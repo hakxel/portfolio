@@ -425,7 +425,12 @@ p, h5 {
   color: aliceblue;
 }
 
-.bio-wrapper > img {
+.bio-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-image {
   align-self: flex-start;
   max-width: 20vw;
   min-width: 10em;
@@ -435,6 +440,11 @@ p, h5 {
   border-radius: 50%;
   margin: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.795)
+}
+
+.resume {
+  color: aliceblue;
+  font-size: 2rem;
 }
 
 /* .bio-resume {

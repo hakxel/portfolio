@@ -1,7 +1,7 @@
 import React from 'react'
 import Main from './Main'
 import Transition1 from './Transition1'
-import Resume from './Resume'
+import Bio from './Bio'
 import Projects from './Projects'
 import Transition2 from './Transition2'
 import Contact from './Contact'
@@ -15,7 +15,7 @@ let Home = () => {
         <Main />
         <Transition1 />
         <Projects />
-        <Resume />
+        <Bio />
         <Transition2 />
         <Contact />
       </article>

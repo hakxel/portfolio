@@ -313,7 +313,8 @@ p, h5 {
 .quote {
   text-align: center;
   /* font-family: 'Acme', sans-serif; */
-  /* width: 50%;   */
+  width: 90%; 
+  min-width: 15rem;
 }
 
 
@@ -353,7 +354,8 @@ p, h5 {
   flex-wrap: wrap;
   width: 30vw;
   height: 10 rem;
-  margin: 3rem;
+  margin: 2rem;
+  min-width: 15rem;
   background-image: linear-gradient(to bottom rgba(9, 51, 114, 0.897), rgba(33, 89, 172, 0.801), rgba(34, 5, 46, 0.932));
   /* background-image: linear-gradient(to top rgba(10, 31, 63, 0.7), rgb(1, 1, 17), rgba(10, 31, 63, 0.7)); */
   /* background-image: linear-gradient(to bottom rgba(143, 124, 43, 0.863), rgba(160, 160, 154, 0.76), rgba(31, 30, 29, 0.959)); */
@@ -370,12 +372,12 @@ p, h5 {
   display: flex;
   align-items: center;
   outline: 0;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .project a > img {
   max-width: 95%;
-  height: 85%;
+  max-height: 90%;
   margin: 4px;
   border: 1px solid aliceblue;
   overflow: hidden;
@@ -392,7 +394,7 @@ p, h5 {
   justify-content: flex-start;
   flex-direction: column;
   max-width: 100vw;
-  height: auto;
+  height: 100vh;
   background-image: url("./images/workspace.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -409,10 +411,14 @@ p, h5 {
   text-align: left;
 }
 .bio-text{
-  max-width: 70%;
+  max-width: 60%;
   padding: 5px;
-  /* background-color: rgba(247, 189, 101, 0.856) */
-  background-color: rgba(92, 132, 241, 0.856)
+  background-image: linear-gradient(to bottom, #04497ef1, #088488e0);
+  /* background-image: linear-gradient(to bottom rgba(10, 31, 63, 0.7), rgb(1, 1, 17), rgba(10, 31, 63, 0.7)); */
+  /* background-image: linear-gradient(to bottom rgba(7, 66, 17, 0.897), rgba(4, 49, 39, 0.945), rgba(15, 124, 119, 0.753)); */
+  /* background-color: rgba(167, 102, 5, 0.856) */
+  /* background-color: rgba(92, 132, 241, 0.856) */
+  box-shadow: 5px 5px 20px 1px rgb(0, 0, 10)
 }
 
 .bio-text > p {
@@ -421,13 +427,14 @@ p, h5 {
 
 .bio-wrapper > img {
   align-self: flex-start;
-  max-width: 15vw;
-  min-width: 8em;
+  max-width: 20vw;
+  min-width: 10em;
   height: auto;
-  max-height: 12em;
+  max-height: 15em;
   border: 1px solid rgb(82, 104, 121);
   border-radius: 50%;
   margin: 5px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.795)
 }
 
 /* .bio-resume {
@@ -499,7 +506,10 @@ p, h5 {
   margin-top: 2em;
   margin-bottom: 5em;
   width: 40vw;
+  min-width: 20rem;
   justify-self: flex-end;
+  box-shadow: 5px 5px 10px 1px rgba(18, 1, 44, 0.774)
+  
 }
 
 .contact-wrapper form {
@@ -520,12 +530,14 @@ p, h5 {
   margin-bottom: 0.5em;
   border-radius: 5px;
   box-shadow: none;
+  min-width: 15em;
 }
 
 .contact-wrapper .message {
   height: 10em;
   width: 30vw;
   border-radius: 5px;
+  min-width: 15em;
 }
 
 .contact-wrapper .button {

@@ -64,7 +64,6 @@ p, h5 {
   width: 100vw;
   justify-content: center;
   /* background-color: #04223da9; */
-  /* background-color: rgba(255, 255, 255, 0); */
   /* align-self: flex-start; */
   /* background-color: rgb(21, 129, 223); */
   /* border: 2px solid white; */
@@ -139,6 +138,7 @@ p, h5 {
   font-size: 1.2rem;
   padding-right: 5vw;
   padding-left: 5vw;
+  outline: 0px;
   /* padding-right: 2em;
   padding-left: 2em; */
 }
@@ -170,7 +170,7 @@ p, h5 {
   box-sizing: border-box;
 }
 
-#hero {
+#home {
   /* align-items: center; */
   background-attachment: fixed;
   background-image: url(./images/focus.jpg);
@@ -442,9 +442,10 @@ p, h5 {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.795)
 }
 
-.resume {
+.resume-link {
   color: aliceblue;
   font-size: 2rem;
+  outline: 0px;
 }
 
 /* .bio-resume {

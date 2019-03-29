@@ -13,7 +13,7 @@ let Resume = () => {
         </div>
         <aside className="bio-right">
           <img src={process.env.PUBLIC_URL + "/images/Profpic.jpg"} className="bio-image" alt="Asiel smiling" />
-          <a href="#" className="resume">Resume</a>
+          <a href="/resume" target="_blank" className="resume-link">Resume</a>
         </aside>
       </div>
     </section>

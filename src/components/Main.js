@@ -6,7 +6,7 @@ import SocialLinks from './SocialLinks'
 
 let Main = () => {
   return (
-    <section id="hero">
+    <section id="home">
       <Navbar />
       <div className="hero-body">
         <SocialLinks />        

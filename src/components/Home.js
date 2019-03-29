@@ -14,8 +14,8 @@ let Home = () => {
       <article className="container-fluid">
         <Main />
         <Transition1 />
-        <Resume />
         <Projects />
+        <Resume />
         <Transition2 />
         <Contact />
       </article>

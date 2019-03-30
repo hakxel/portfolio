@@ -2,7 +2,9 @@ import React from 'react'
 
 let Footer = () => {
   return(
-    <footer className="footer"></footer>
+    <footer className="footer">
+      <a href="#home">Back to top</a>
+    </footer>
   )
 }
 

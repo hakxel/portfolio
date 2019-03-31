@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import PDFviewer from './PDFviewer'
-import PDFJSBackend from '../backends/PDFJS'
+import ResumePDF from '../data/AsielMontes_Resume.pdf'
+
 class Resume extends Component {
   render(){
     return(
-      <PDFviewer 
-        backend={PDFJSBackend}
-        src="/AsielMontes_Resume.pdf" />
+      <object data={ResumePDF} type="application/pdf" style={{width: "100vw", height: "100vh"}}>
+        <iframe src={ResumePDF} style={{width: '100vw', height: '100vh'}}></iframe>
+      </object>
     )
   }
 }

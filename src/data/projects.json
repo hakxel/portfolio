@@ -9,6 +9,14 @@
       "description":"An app for your bitcoin purchases"
     },
     { 
+      "name": "hakxelMole",
+      "class": "project",
+      "href": "https://hakxel-mole.firebaseapp.com/",
+      "image":"/images/hakxelMole",
+      "alt": "Whack-a-mole game",
+      "description":"A simple whack-a-mole game"
+    },
+    { 
       "name": "beatBlender",
       "class": "project",
       "href": "https://beat-blender.herokuapp.com",

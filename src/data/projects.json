@@ -19,7 +19,7 @@
     { 
       "name": "beatBlender",
       "class": "project",
-      "href": "https://beat-blendr.herokuapp.com",
+      "href": "https://beat-blender.herokuapp.com",
       "image": "/images/beatBlender",
       "alt": "Beat Blender App",
       "description": "A playlist mixer for your family meetings"

@@ -7,10 +7,10 @@ class Projects extends Component {
   constructor(){
     super()
     this.state = {
-      bitworldBuys: "1.png",
-      beatBlender: "1.png",
-      sampleApp: "1.png",
-      leCSS: "1.png"
+      bitworldBuys: "1.jpg",
+      beatBlender: "1.jpg",
+      sampleApp: "1.jpg",
+      leCSS: "1.jpg"
     }
   }
 

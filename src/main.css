@@ -160,7 +160,7 @@ p, h5 {
 #home {
   /* align-items: center; */
   background-attachment: fixed;
-  background-image: url(./images/focus.jpg);
+  background-image: url('https://ik.imagekit.io/hakxelimgs/focus_BkTUqyYFN.jpg');
   background-position: center;
   background-size: cover;
   display: flex;
@@ -315,7 +315,7 @@ p, h5 {
 #projects {
   box-sizing: content-box;
   background-attachment: fixed;
-  background-image: url("./images/connected.jpeg");
+  background-image: url('https://ik.imagekit.io/hakxelimgs/connected_Hy5L51YFE.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -385,7 +385,7 @@ p, h5 {
   max-width: 100vw;
   min-height: 100vh;
   height: auto;
-  background-image: url("./images/workspace.jpg");
+  background-image: url('https://ik.imagekit.io/hakxelimgs/workspace_SyiL5kKFV.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -454,50 +454,8 @@ p, h5 {
   color: aliceblue;
 }
 
-/* .bio-resume {
-  display: flex;
-  max-width: 100vw;
-  align-content: center;
-  flex-direction: column;
-  padding-bottom: 2em;
-}
-
-.resume {
-  display: flex;
-  justify-self: center;
-  justify-content: center;
-  align-self: center;
-  max-width: 70vw;
-  flex-direction: column;
-  background-color: whitesmoke;
-  padding: 1px solid blue;
-  border: 1px solid antiquewhite
-}
-
-.resume h4 {
-  background-color: rgb(49, 131, 238);
-  padding: 0.5em;
-  color: rgb(243, 112, 64);
-  font-weight: bolder 
-}
-
-.resume h5 {
-  font-weight: 600;
-  background-color: rgb(49, 131, 238);
-} */
-
-/* .current {
-  text-align: left;
-  max-width: 15em;
-}
-
-.current h5 {
-  background-color: rgb(30, 195, 236);
-  color: rgb(243, 112, 64);
-} */
-
 #contact {
-  background-image: url(./images/milky-way.jpg);
+  background-image: url('https://ik.imagekit.io/hakxelimgs/milky-way_rygpIckFtV.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

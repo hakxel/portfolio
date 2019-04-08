@@ -160,7 +160,7 @@ p, h5 {
 #home {
   /* align-items: center; */
   background-attachment: fixed;
-  background-image: url('https://ik.imagekit.io/hakxelimgs/focus_BkTUqyYFN.jpg');
+  background-image: url('https://ik.imagekit.io/hakxelimgs/focus-large_ByDDXHKY4.jpg');
   background-position: center;
   background-size: cover;
   display: flex;
@@ -455,7 +455,7 @@ p, h5 {
 }
 
 #contact {
-  background-image: url('https://ik.imagekit.io/hakxelimgs/milky-way_rygpIckFtV.jpg');
+  background-image: url('https://ik.imagekit.io/hakxelimgs/milky-way-large_B1mY4rKF4.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

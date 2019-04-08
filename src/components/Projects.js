@@ -8,6 +8,7 @@ class Projects extends Component {
     super()
     this.state = {
       bitworldBuys: "1.jpg",
+      hakxelMole: "1.jpg",
       beatBlender: "1.jpg",
       sampleApp: "1.jpg",
       leCSS: "1.jpg"
@@ -17,14 +18,14 @@ class Projects extends Component {
   handleMouseIn = (event) => {
     let name = event.target.name
     this.setState({
-      [name]: "2.png"
+      [name]: "2.jpg"
     })
   }
 
   handleMouseOut = (event) => {
     let name = event.target.name
     this.setState({
-      [name]: "1.png"
+      [name]: "1.jpg"
     })
   }
 

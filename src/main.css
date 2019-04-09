@@ -317,6 +317,7 @@ p, h5 {
   background-attachment: fixed;
   background-image: url('https://ik.imagekit.io/hakxelimgs/connected_Hy5L51YFE.jpeg');
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -385,10 +386,11 @@ p, h5 {
   max-width: 100vw;
   min-height: 100vh;
   height: auto;
+  background-attachment: fixed;
   background-image: url('https://ik.imagekit.io/hakxelimgs/workspace_SyiL5kKFV.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
 }
 
 .bio-wrapper {
@@ -459,13 +461,13 @@ p, h5 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   text-align: center;
   flex-direction: column;
   align-items: center;
   height: auto;
   max-width: 100%;
-  background-color: aliceblue;
 }
 
 .title > h1 {
@@ -566,6 +568,25 @@ p, h5 {
     font-size: 2.5rem;
   }
 
+  #home, #projects, #bio, #contact {
+    background-image: none;
+  }
+
+  #home:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url('https://ik.imagekit.io/hakxelimgs/focus-large_ByDDXHKY4.jpg') center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   .hero-body {
     align-self: center;
     display: flex;
@@ -615,7 +636,7 @@ p, h5 {
   .hero-right {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 65vh;
     justify-content: space-evenly;
     padding-top: 0px;
     margin-top: 0px;
@@ -629,7 +650,7 @@ p, h5 {
   }
 
   .hero-right > h2 {
-    margin-top: 35vh;
+    margin-top: 5vh;
   }
 
   .hero-right > h3 {
@@ -650,6 +671,8 @@ p, h5 {
   #transition2 {
     width: 100vw;
     height: 20vh;
+    min-height: 10rem;
+    max-height: 10rem;
   }
 
   .quote {
@@ -781,6 +804,25 @@ p, h5 {
   
   .nav-pills li>a {
     font-size: 1rem;
+  }
+
+  #home, #projects, #bio, #contact {
+    background-image: none;
+  }
+
+   #home:after {
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url('https://ik.imagekit.io/hakxelimgs/focus-large_ByDDXHKY4.jpg') center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .hero-body {

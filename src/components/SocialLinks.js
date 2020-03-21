@@ -12,9 +12,6 @@ let SocialLinks = () => {
       <div className="icon-wrapper">
         <a href="https://github.com/Hakxel" target="_blank" rel="noopener noreferrer"><img className="github icon" src={github} alt="Github icon" /></a>
       </div>
-      <div className="icon-wrapper">
-        <a href="https://twitter.com/Hakxell" target="_blank" rel="noopener noreferrer"><img className="twitter icon" src={twitter} alt="Twitter icon" /></a>
-      </div>
     </aside>
   )
 }
